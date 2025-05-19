@@ -50,7 +50,7 @@ const Navbar = () => {
           <School size={"30"} />
           <Link to="/">
             <h1 className="hidden md:block font-extrabold text-2xl">
-              E-Learning
+              GROWTH TRADERS
             </h1>
           </Link>
         </div>
@@ -128,14 +128,14 @@ const MobileNavbar = ({user}) => {
       </SheetTrigger>
       <SheetContent className="flex flex-col">
         <SheetHeader className="flex flex-row items-center justify-between mt-2">
-          <SheetTitle> <Link to="/">E-Learning</Link></SheetTitle>
+          <SheetTitle> <Link to="/">GROWTH TRADRES</Link></SheetTitle>
           <DarkMode />
         </SheetHeader>
         <Separator className="mr-2" />
         <nav className="flex flex-col space-y-4">
           <Link to="/my-learning">My Learning</Link>
           <Link to="/profile">Edit Profile</Link>
-          <p>Log out</p>
+          <p>Logout</p>
         </nav>
         {user?.role === "instructor" && (
           <SheetFooter>
